@@ -18,7 +18,7 @@
     "strongloop",
     "google",
     "cloud",
-    "storage"
+    "datastore"
   ],
   "author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
   "license": "MIT",

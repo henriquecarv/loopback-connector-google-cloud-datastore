@@ -1,0 +1,41 @@
+{
+  "name": "loopback-connector-google-cloud-datastore",
+  "version": "1.0.0",
+  "description": "Google Cloud Datastore connector for the LoopBack framework.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://henriquecarv@github.com/henriquecarv/loopback-connector-google-cloud-datastore.git"
+  },
+  "keywords": [
+    "connector",
+    "datasource",
+    "henriquecarv",
+    "loopback",
+    "strongloop",
+    "google",
+    "cloud",
+    "storage"
+  ],
+  "author": "Henrique Carvalho da Cruz <henriquecarv.cruz@gmail.com> (https://henriquecarv.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore#readme",
+  "bugs": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore/issues",
+  "dependencies": {
+    "@google-cloud/datastore": "^2.0.0",
+    "loopback-connector": "^4.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "acorn": "^6.0.4",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "loopback-datasource-juggler": "^4.4.0"
+  }
+}

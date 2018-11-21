@@ -1,0 +1,7 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "sort-keys": "warn",
+    "sort-vars": "warn"
+  }
+}

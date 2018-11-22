@@ -46,7 +46,7 @@ You should fill the application's datasource file which is located in `/server/d
 | Property    | Type&nbsp;&nbsp; | Description                   | --- |
 | ----------- | ---------------- | ----------------------------- | --- |
 | projectId   | String           | project_id in the JSON file   | --- |
-| keyFilename | String           | serviceAccount JSON file path | --- | --- |
+| keyFilename | String           | serviceAccount JSON file path | --- |
 
 And you can actually store those private details as an Environment variables, Check [source-configuration][6]
 

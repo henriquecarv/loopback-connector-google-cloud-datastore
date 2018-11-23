@@ -1,7 +1,7 @@
 {
-  "extends": "airbnb-base",
-  "rules": {
-    "sort-keys": "warn",
-    "sort-vars": "warn"
+  "extends": "loopback",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
   }
 }

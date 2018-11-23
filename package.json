@@ -29,13 +29,9 @@
     "loopback-connector": "^4.5.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
     "acorn": "^6.0.4",
     "eslint": "^5.9.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-config-loopback": "^12.1.0",
     "loopback-datasource-juggler": "^4.4.0"
   }
 }

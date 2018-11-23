@@ -7,6 +7,7 @@ Google Cloud Datastore connector for the LoopBack framework.
 [![npm](https://img.shields.io/npm/v/loopback-connector-google-cloud-datastore.svg)](https://www.npmjs.com/package/loopback-connector-google-cloud-datastore)
 [![LICENSE](https://img.shields.io/github/license/henriquecarv/loopback-connector-google-cloud-datastore.svg)](./LICENSE)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=henriquecarv/loopback-connector-google-cloud-datastore)](https://dependabot.com)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore?ref=badge_shield)
 
 ## System Requirements
 
@@ -64,3 +65,6 @@ Copylefted (c) 2018 [Henrique Carvalho da Cruz][1] Licensed under the [MIT licen
 [4]: https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts
 [5]: http://loopback.io/getting-started/
 [6]: https://loopback.io/doc/en/lb3/Environment-specific-configuration.html#data-source-configuration
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore?ref=badge_large)

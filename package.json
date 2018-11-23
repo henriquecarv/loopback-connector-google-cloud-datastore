@@ -4,6 +4,7 @@
   "description": "Google Cloud Datastore connector for the LoopBack framework.",
   "main": "index.js",
   "scripts": {
+    "test": "mocha -G --timeout 10000 --require test/init.js test/*.test.js",
     "lint": "eslint ."
   },
   "repository": {
@@ -30,8 +31,11 @@
   },
   "devDependencies": {
     "acorn": "^6.0.4",
+    "dotenv": "^6.1.0",
     "eslint": "^5.9.0",
     "eslint-config-loopback": "^12.1.0",
-    "loopback-datasource-juggler": "^4.4.0"
+    "loopback-datasource-juggler": "^4.4.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
   }
 }

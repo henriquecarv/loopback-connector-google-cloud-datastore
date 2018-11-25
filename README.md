@@ -38,7 +38,7 @@ You should fill the application's datasource file which is located in `/server/d
 "GoogleCloudDatastore": {
   "name": "GoogleCloudDatastore",
   "projectId": "",
-  "keyFilename": ""
+  "keyFilename": "" //Enter the full relative path or your application to file (eg. "./src/datasources/google/serviceAccount.json')
 }
 ```
 
@@ -65,6 +65,5 @@ Copylefted (c) 2018 [Henrique Carvalho da Cruz][1] Licensed under the [MIT licen
 [4]: https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts
 [5]: http://loopback.io/getting-started/
 [6]: https://loopback.io/doc/en/lb3/Environment-specific-configuration.html#data-source-configuration
-
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore?ref=badge_large)

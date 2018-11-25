@@ -4,6 +4,8 @@
   "description": "Google Cloud Datastore connector for the LoopBack framework.",
   "main": "index.js",
   "scripts": {
+    "check-modules": "if [ ! -d 'node_modules/' ]; then npm i; fi",
+    "pretest": "npm run check-modules",
     "test": "mocha -G --timeout 10000 --require test/init.js test/*.test.js",
     "lint": "eslint ."
   },

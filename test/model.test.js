@@ -3,7 +3,7 @@ require('./init');
 
 const dataSource = getDataSource();
 
-describe('Google Cloud Datastore', () => {
+describe('Loopback Google Cloud Datastore Connector', () => {
   const Customer = dataSource.createModel('customer', {
     name: String,
     emails: [String],
@@ -49,11 +49,19 @@ describe('Google Cloud Datastore', () => {
     );
   });
 
+  it('Should count 2 entities', (done) => {
+    Customer.count((error, customer) => {
+      customer.should.be.exactly(2).and.be.a.Number();
+
+      done(error, customer);
+    });
+  });
+
   it('Should find an Entity by id', (done) => {
     Customer.find({where: {id: customer1.id}}, (error, customer) => {
       // eslint-disable-next-line no-unused-expressions
-      customer.should.be.object;
-      customer.should.containDeep([{name: customer1.name}]);
+      customer.should.be.array;
+      customer.should.containDeep([{id: customer1.id}]);
 
       done(error, customer);
     });
@@ -72,8 +80,8 @@ describe('Google Cloud Datastore', () => {
   it('Should get all entities', (done) => {
     Customer.all((error, customer) => {
       customer.should.have.length(2);
-      customer.should.containDeep([{name: customer1.name}]);
-      customer.should.containDeep([{name: customer2.name}]);
+      customer.should.containDeep([{id: customer1.id}]);
+      customer.should.containDeep([{id: customer2.id}]);
 
       done(error, customer);
     });

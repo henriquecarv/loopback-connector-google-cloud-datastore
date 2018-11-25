@@ -38,7 +38,7 @@ You should fill the application's datasource file which is located in `/server/d
 "GoogleCloudDatastore": {
   "name": "GoogleCloudDatastore",
   "projectId": "",
-  "keyFilename": "" //Enter the full relative path or your application to file (eg. "./src/datasources/google/serviceAccount.json')
+  "keyFilename": "" //Enter the full relative path of your application to file (eg. "./src/datasources/google/serviceAccount.json')
 }
 ```
 

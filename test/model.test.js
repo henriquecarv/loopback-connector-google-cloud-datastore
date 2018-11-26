@@ -87,6 +87,16 @@ describe('Loopback Google Cloud Datastore Connector', () => {
     });
   });
 
+  it('Should find an entity by age equals to 26', (done) => {
+    Customer.find({where: {age: customer1.age}}, (error, customer) => {
+      customer.should.have.length(1);
+      customer.should.containDeep([{age: customer1.age}]);
+      customer.should.containDeep([{id: customer1.id}]);
+
+      done(error, customer);
+    });
+  });
+
   it('Should replace attributes for a model entity', (done) => {
     Customer.replaceById(
       customer1.id,

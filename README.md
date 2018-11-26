@@ -26,7 +26,7 @@ lb datasource
 Then the data source generator will prompt some questions like
 
 - Enter the data-source name: **GoogleCloudDatastore** _(Choose your prefered name)_
-- Select the connector for Firebase: **other**
+- Select the connector for GoogleCloudDatastore: **other**
 - Enter the connector's module name **loopback-connector-google-cloud-datastore**
 - Install loopback-connector-google-cloud-datastore (Y/n) **y**
 
@@ -38,7 +38,7 @@ You should fill the application's datasource file which is located in `/server/d
 "GoogleCloudDatastore": {
   "name": "GoogleCloudDatastore",
   "projectId": "",
-  "keyFilename": "" //Enter the full relative path of your application to file (eg. "./src/datasources/google/serviceAccount.json')
+  "keyFilename": "" //Enter the full relative path of your application to file (eg. './src/datasources/google/serviceAccount.json')
 }
 ```
 

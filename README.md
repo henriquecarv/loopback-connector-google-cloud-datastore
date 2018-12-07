@@ -53,7 +53,7 @@ And you can actually store those private details as an Environment variables, Ch
 
 ### Inspiration
 
-Dyaa Eldin Moustafa [Firestore connector][3]
+[Dyaa Eldin Moustafa][7] [Firestore connector][3]
 
 ### License
 
@@ -65,5 +65,6 @@ Copylefted (c) 2018 [Henrique Carvalho da Cruz][1] Licensed under the [MIT licen
 [4]: https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts
 [5]: http://loopback.io/getting-started/
 [6]: https://loopback.io/doc/en/lb3/Environment-specific-configuration.html#data-source-configuration
+[7]: https://github.com/dyaa
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhenriquecarv%2Floopback-connector-google-cloud-datastore?ref=badge_large)

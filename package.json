@@ -35,7 +35,7 @@
     "acorn": "^6.0.4",
     "dotenv": "^6.1.0",
     "eslint": "^5.9.0",
-    "eslint-config-loopback": "^12.1.0",
+    "eslint-config-loopback": "^13.0.0",
     "loopback-datasource-juggler": "^4.4.0",
     "mocha": "^5.2.0",
     "should": "^13.2.3"

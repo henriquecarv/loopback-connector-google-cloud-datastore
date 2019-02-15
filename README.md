@@ -2,6 +2,7 @@
 
 Google Cloud Datastore connector for the LoopBack framework.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/667534f785cd4989a08cdd818870bdb2)](https://app.codacy.com/app/henriquecarv/loopback-connector-google-cloud-datastore?utm_source=github.com&utm_medium=referral&utm_content=henriquecarv/loopback-connector-google-cloud-datastore&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://dev.azure.com/henriquecarvgit/henriquecarvgit/_apis/build/status/henriquecarv.loopback-connector-google-cloud-datastore?branchName=master)](https://dev.azure.com/henriquecarvgit/henriquecarvgit/_build/latest?definitionId=5)
 [![npm](https://img.shields.io/npm/dt/loopback-connector-google-cloud-datastore.svg)](https://www.npmjs.com/package/loopback-connector-google-cloud-datastore)
 [![npm](https://img.shields.io/npm/v/loopback-connector-google-cloud-datastore.svg)](https://www.npmjs.com/package/loopback-connector-google-cloud-datastore)

@@ -20,7 +20,7 @@ describe('Loopback Google Cloud Datastore Connector', () => {
         name: 'Henrique Carvalho da Cruz',
         emails: ['noreply@henrique.me', 'foo@bar.com'],
         type: 'Animal',
-        age: 27,
+        age: 2,
       },
       (error, customer) => {
         customer1 = customer;
@@ -39,7 +39,7 @@ describe('Loopback Google Cloud Datastore Connector', () => {
         name: 'Orion Cruz',
         emails: ['orion@cruz.com'],
         type: 'Animal',
-        age: 2,
+        age: 27,
       },
       (error, customer) => {
         customer2 = customer;
@@ -99,6 +99,15 @@ describe('Loopback Google Cloud Datastore Connector', () => {
     });
   });
 
+  it('Should get Orion as first Entity in the array', done => {
+    Customer.all({order: 'age DESC'}, (error, customer) => {
+      customer.should.have.length(2);
+      customer.should.containDeep([{id: customer2.id}]);
+
+      done(error, customer);
+    });
+  });
+
   it('Should get a specific field from all entities', done => {
     Customer.all({fields: {emails: true}}, (error, customer) => {
       customer.should.have.length(2);
@@ -119,7 +128,7 @@ describe('Loopback Google Cloud Datastore Connector', () => {
     });
   });
 
-  it('Should find an entity by age equals to 26', done => {
+  it('Should find an entity by age equals to 2', done => {
     Customer.find({where: {age: customer1.age}}, (error, customer) => {
       customer.should.have.length(1);
       customer.should.containDeep([{age: customer1.age}]);

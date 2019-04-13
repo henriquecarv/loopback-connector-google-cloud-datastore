@@ -6,7 +6,7 @@
   "scripts": {
     "check-modules": "if [ ! -d 'node_modules/' ]; then npm i; fi",
     "pretest": "npm run check-modules",
-    "test": "mocha -G --timeout 10000 --require test/init.js test/*.test.js",
+    "test": "mocha",
     "lint": "eslint ."
   },
   "repository": {

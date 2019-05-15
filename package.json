@@ -6,7 +6,7 @@
   "scripts": {
     "check-modules": "if [ ! -d 'node_modules/' ]; then npm i; fi",
     "pretest": "npm run check-modules",
-    "test": "mocha -G --timeout 10000 --require test/init.js test/*.test.js",
+    "test": "mocha --exit",
     "lint": "eslint ."
   },
   "repository": {
@@ -29,14 +29,14 @@
   "bugs": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore/issues",
   "dependencies": {
     "@google-cloud/datastore": "^3.1.2",
-    "loopback-connector": "^4.6.2"
+    "loopback-connector": "^4.7.0"
   },
   "devDependencies": {
     "acorn": "^6.1.1",
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
     "eslint-config-loopback": "^13.1.0",
-    "loopback-datasource-juggler": "^4.6.2",
+    "loopback-datasource-juggler": "^4.7.1",
     "mocha": "^6.1.4",
     "should": "^13.2.3"
   }

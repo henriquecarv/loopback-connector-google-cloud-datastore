@@ -28,7 +28,7 @@
   "homepage": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore#readme",
   "bugs": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore/issues",
   "dependencies": {
-    "@google-cloud/datastore": "^3.1.2",
+    "@google-cloud/datastore": "^4.0.0",
     "loopback-connector": "^4.7.0"
   },
   "devDependencies": {

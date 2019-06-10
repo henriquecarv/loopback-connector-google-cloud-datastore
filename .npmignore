@@ -1,0 +1,8 @@
+test/
+.github/
+.editorconfig
+.eslint*
+.gitignore
+.mocharc
+azure-pipelines.yml
+*.md

@@ -34,7 +34,7 @@
   "devDependencies": {
     "acorn": "^6.1.1",
     "dotenv": "^8.0.0",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.0",
     "eslint-config-loopback": "^13.1.0",
     "loopback-datasource-juggler": "^4.7.1",
     "mocha": "^6.1.4",

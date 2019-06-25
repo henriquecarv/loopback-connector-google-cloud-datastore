@@ -4,10 +4,9 @@
   "description": "Google Cloud Datastore connector for the LoopBack framework.",
   "main": "index.js",
   "scripts": {
-    "check-modules": "if [ ! -d 'node_modules/' ]; then npm i; fi",
-    "pretest": "npm run check-modules",
     "test": "mocha --exit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepublishOnly": "node ./scripts/npm-login.js"
   },
   "repository": {
     "type": "git",
@@ -38,6 +37,7 @@
     "eslint-config-loopback": "^13.1.0",
     "loopback-datasource-juggler": "^4.8.2",
     "mocha": "^6.1.4",
+    "npm-cli-login": "^0.1.1",
     "should": "^13.2.3"
   }
 }

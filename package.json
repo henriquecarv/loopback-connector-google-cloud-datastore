@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-google-cloud-datastore",
-  "version": "2.10.0",
+  "version": "2.10.1",
   "description": "Google Cloud Datastore connector for the LoopBack framework.",
   "main": "index.js",
   "scripts": {

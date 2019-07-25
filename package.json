@@ -31,7 +31,7 @@
   "dependencies": {
     "@google-cloud/datastore": "^4.1.3",
     "loopback-connector": "^4.8.0",
-    "snyk": "^1.192.0"
+    "snyk": "^1.199.1"
   },
   "devDependencies": {
     "acorn": "^6.1.1",

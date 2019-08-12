@@ -6,9 +6,7 @@
   "scripts": {
     "test": "mocha --exit",
     "lint": "eslint .",
-    "prepublishOnly": "node ./scripts/npm-login.js",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepublishOnly": "node ./scripts/npm-login.js"
   },
   "repository": {
     "type": "git",
@@ -29,19 +27,17 @@
   "homepage": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore#readme",
   "bugs": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore/issues",
   "dependencies": {
-    "@google-cloud/datastore": "^4.1.3",
-    "loopback-connector": "^4.8.0",
-    "snyk": "^1.192.0"
+    "@google-cloud/datastore": "^4.2.0",
+    "loopback-connector": "^4.8.0"
   },
   "devDependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.3.0",
     "dotenv": "^8.0.0",
-    "eslint": "^6.0.1",
+    "eslint": "^6.1.0",
     "eslint-config-loopback": "^13.1.0",
-    "loopback-datasource-juggler": "^4.8.2",
-    "mocha": "^6.1.4",
+    "loopback-datasource-juggler": "^4.11.0",
+    "mocha": "^6.2.0",
     "npm-cli-login": "^0.1.1",
     "should": "^13.2.3"
-  },
-  "snyk": true
+  }
 }

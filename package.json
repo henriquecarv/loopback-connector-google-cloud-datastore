@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --exit",
-    "lint": "eslint .",
-    "prepublishOnly": "node ./scripts/npm-login.js"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -31,13 +30,12 @@
     "loopback-connector": "^4.8.0"
   },
   "devDependencies": {
-    "acorn": "^6.3.0",
-    "dotenv": "^8.0.0",
-    "eslint": "^6.1.0",
+    "acorn": "^7.0.0",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.3.0",
     "eslint-config-loopback": "^13.1.0",
-    "loopback-datasource-juggler": "^4.11.0",
+    "loopback-datasource-juggler": "^4.12.0",
     "mocha": "^6.2.0",
-    "npm-cli-login": "^0.1.1",
     "should": "^13.2.3"
   }
 }

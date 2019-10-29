@@ -29,7 +29,7 @@ describe('Loopback Google Cloud Datastore Connector', () => {
         customer.should.have.property('emails').with.lengthOf(2);
 
         done(error, customer);
-      }
+      },
     );
   });
 
@@ -48,7 +48,7 @@ describe('Loopback Google Cloud Datastore Connector', () => {
         customer.should.have.property('emails').with.lengthOf(1);
 
         done(error, customer);
-      }
+      },
     );
   });
 
@@ -146,7 +146,7 @@ describe('Loopback Google Cloud Datastore Connector', () => {
         customer.should.have.property('emails').with.lengthOf(1);
 
         done(error, customer);
-      }
+      },
     );
   });
 
@@ -158,7 +158,7 @@ describe('Loopback Google Cloud Datastore Connector', () => {
         customer.should.containDeep([{emails: ['animal@example.com']}]);
 
         done(error, customer);
-      }
+      },
     );
   });
 

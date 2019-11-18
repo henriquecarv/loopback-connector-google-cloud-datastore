@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@google-cloud/datastore@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-4.5.2.tgz#b1f9300ca2de91bcfd5783f54354411ece1446bc"
-  integrity sha512-dILePgHiA14/6l47XrsTjQqGhZVtznrqg3Q3ent5jOhL+0QGGokY+Y3OtYTQ1yCAfUg/ZcwjLY1s2MBbrHqnog==
+"@google-cloud/datastore@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-5.0.0.tgz#df28fb8e588e8da199d989732c51754af3f0b46c"
+  integrity sha512-z1cs+NPjS5caFVZ2Gzodr883v6Xv8If7SfFjTXcYT3gwlWKsHbgb4oExoO7V5+VB49CPO0gtNf41LtlZ/+m4kA==
   dependencies:
     "@google-cloud/projectify" "^1.0.0"
     "@google-cloud/promisify" "^1.0.0"

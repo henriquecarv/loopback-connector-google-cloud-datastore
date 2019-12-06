@@ -18,14 +18,14 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@google-cloud/datastore@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-4.5.2.tgz#b1f9300ca2de91bcfd5783f54354411ece1446bc"
-  integrity sha512-dILePgHiA14/6l47XrsTjQqGhZVtznrqg3Q3ent5jOhL+0QGGokY+Y3OtYTQ1yCAfUg/ZcwjLY1s2MBbrHqnog==
+"@google-cloud/datastore@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-5.0.1.tgz#ced7d74f77a2a72b891082e2b1c13b547c436bb4"
+  integrity sha512-VJxvcrGQk+gBLIae8njrvZt9eZtIuFZbxAUG3iN0UbWo8VvkPkM2aKMU0r4qR0nghgMWv6RRkFNsbRtMknm4ag==
   dependencies:
     "@google-cloud/projectify" "^1.0.0"
     "@google-cloud/promisify" "^1.0.0"
-    "@grpc/grpc-js" "0.6.11"
+    "@grpc/grpc-js" "0.6.13"
     "@types/duplexify" "^3.6.0"
     "@types/long" "^4.0.0"
     arrify "^2.0.1"
@@ -47,10 +47,10 @@
   resolved "https://registry.yarnpkg.com/@google-cloud/promisify/-/promisify-1.0.2.tgz#e581aa79ff71fb6074acc1cc59e3d81bf84ce07b"
   integrity sha512-7WfV4R/3YV5T30WRZW0lqmvZy9hE2/p9MvpI34WuKa2Wz62mLu5XplGTFEMK6uTbJCLWUxTcZ4J4IyClKucE5g==
 
-"@grpc/grpc-js@0.6.11":
-  version "0.6.11"
-  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-0.6.11.tgz#24ef6c67dc92793f6c2fefe64ded532ff96b78fb"
-  integrity sha512-ZVTP12Ry/+quOe/deAxaoAowQ/H0JwuQfmZE7xyOeo5X0KFqLnDAg9tLfDxsfLX5AJJzHYYRgGFajTWYRWgt5Q==
+"@grpc/grpc-js@0.6.13":
+  version "0.6.13"
+  resolved "https://registry.yarnpkg.com/@grpc/grpc-js/-/grpc-js-0.6.13.tgz#960c37fffb006c683382de3fdf4d8ab837829afe"
+  integrity sha512-fxkxS+sEtYdfR0ifqgCTqBe4jZ5PvlvgcaYpzwgMqz+b18uUdPmp5eRQN+qbbJg2ZMUcgItA8OWIvAobW3PDng==
   dependencies:
     semver "^6.2.0"
 

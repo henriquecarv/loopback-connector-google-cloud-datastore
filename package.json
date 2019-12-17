@@ -26,15 +26,15 @@
   "homepage": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore#readme",
   "bugs": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore/issues",
   "dependencies": {
-    "@google-cloud/datastore": "^4.5.2",
+    "@google-cloud/datastore": "^5.0.2",
     "loopback-connector": "^4.9.0"
   },
   "devDependencies": {
     "acorn": "^7.1.0",
     "dotenv": "^8.2.0",
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.2",
     "eslint-config-loopback": "^13.1.0",
-    "loopback-datasource-juggler": "^4.14.0",
+    "loopback-datasource-juggler": "^4.17.0",
     "mocha": "^6.2.2",
     "should": "^13.2.3"
   }

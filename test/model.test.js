@@ -14,6 +14,14 @@ describe('Loopback Google Cloud Datastore Connector', () => {
   let customer1 = undefined;
   let customer2 = undefined;
 
+  it('Should get all entities when there are no records', done => {
+    Customer.all((error, customer) => {
+      customer.should.have.length(0);
+
+      done(error, customer);
+    });
+  });
+
   it('Should create a Customer entity', done => {
     Customer.create(
       {

@@ -19,9 +19,9 @@
     js-tokens "^4.0.0"
 
 "@google-cloud/datastore@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-5.0.3.tgz#878d02486b2183bebebd0577f7338fc4965fcd13"
-  integrity sha512-fra0z1ZNaAFCsO0fKUbiDzc/hDXnumdZ7NZr7gi0Q3snxv1/q2Wv54KM/159ZqSOR/9cr+6nso0Cu7StuhRHyw==
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@google-cloud/datastore/-/datastore-5.0.4.tgz#455472134021d0e035b2ce1e91cb44fd61fa1b82"
+  integrity sha512-B8pSW2ZapJh46plVcRk770SfFlxkcL/2M5nkSAvzL9uJt9vwlVRD12ldK9AbXuw9ejSh5Fixgeao6ZLEtRcNeg==
   dependencies:
     "@google-cloud/projectify" "^1.0.0"
     "@google-cloud/promisify" "^1.0.0"

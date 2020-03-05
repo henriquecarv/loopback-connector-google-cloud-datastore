@@ -1291,9 +1291,9 @@ long@^4.0.0:
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
 loopback-connector@^4.10.1, loopback-connector@^4.4.0:
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/loopback-connector/-/loopback-connector-4.10.1.tgz#739ca3040a7c9b6a801b0f2037cbc68d60beccde"
-  integrity sha512-QbyrMgjrm3WPuk4RqVNUbh/q+MJfkxMnnV0fuUuRu2CAvEEpRPke47wJIVeKWopwp7NXaILe7gSyEzbXiZVxRQ==
+  version "4.10.2"
+  resolved "https://registry.yarnpkg.com/loopback-connector/-/loopback-connector-4.10.2.tgz#0ba335c18642f57f472b4562b669cd0dae8a7f6f"
+  integrity sha512-3aG0X6FtA9qAkD0FjPYYxt1HgBBezKHG7WMvl3cAt3KmvFAvEALsOZNZLoR1q49pUyc/W1VEJyQXEeHiWWTMuA==
   dependencies:
     async "^3.1.0"
     bluebird "^3.4.6"

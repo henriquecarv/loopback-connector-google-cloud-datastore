@@ -4,8 +4,9 @@
   "description": "Google Cloud Datastore connector for the LoopBack framework.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --exit",
-    "lint": "eslint . --fix"
+    "test": "mocha -t 20000",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -26,16 +27,20 @@
   "homepage": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore#readme",
   "bugs": "https://github.com/henriquecarv/loopback-connector-google-cloud-datastore/issues",
   "dependencies": {
-    "@google-cloud/datastore": "^5.0.4",
-    "loopback-connector": "^4.10.1"
+    "@google-cloud/datastore": "^5.1.0",
+    "loopback-connector": "^4.10.2"
   },
   "devDependencies": {
-    "acorn": "^7.1.0",
+    "acorn": "^7.1.1",
     "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-loopback": "^13.1.0",
-    "loopback-datasource-juggler": "^4.18.1",
-    "mocha": "^7.0.1",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "loopback-datasource-juggler": "^4.19.2",
+    "mocha": "^7.1.1",
+    "prettier": "^2.0.2",
     "should": "^13.2.3"
   }
 }

@@ -1,1 +1,1 @@
-module.exports = require('./lib/google-cloud-datastore-database');
+module.exports = require("./lib/google-cloud-datastore-database");

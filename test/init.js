@@ -1,7 +1,7 @@
-require('dotenv').config();
-module.exports = require('should');
+require("dotenv").config();
+module.exports = require("should");
 
-const DataSource = require('loopback-datasource-juggler').DataSource;
+const DataSource = require("loopback-datasource-juggler").DataSource;
 
 try {
   const config = {
@@ -12,13 +12,14 @@ try {
   global.config = config;
 
   global.getDataSource = global.getSchema = () => {
-    const db = new DataSource(require('../'), config);
-    db.log = (a) => {
-      console.log(a);
+    const db = new DataSource(require("../"), config);
+
+    db.log = (log) => {
+      console.log(log);
     };
 
     return db;
   };
 } catch (error) {
-  console.error('Init test error: ', error);
+  console.error("Init test error: ", error);
 }

@@ -1471,9 +1471,9 @@ loopback-connector@^4.10.2, loopback-connector@^4.4.0:
     uuid "^3.0.1"
 
 loopback-datasource-juggler@^4.19.2:
-  version "4.19.2"
-  resolved "https://registry.yarnpkg.com/loopback-datasource-juggler/-/loopback-datasource-juggler-4.19.2.tgz#a9bc9cfb039eea9d6929adf73e0e498b31324354"
-  integrity sha512-nt6xyCQ99HDhY6KkcFax8AY7DBqVZcedgowb0jEPpVfuuGodK7o8AI6sZcor4RyKn05CValxt15J8gllLbNlbw==
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/loopback-datasource-juggler/-/loopback-datasource-juggler-4.20.0.tgz#532d7eaac86de45cb7e9dc62f6b66f5266508f7e"
+  integrity sha512-fFPJx9Bu29c6XB42WYCiJFXVHzGMVcPnm2NjQGrZ4CvM03GYH4zpHjBJrUTzp4ee6XycZ712xODyvggrcXUhdw==
   dependencies:
     async "^3.1.0"
     change-case "^4.1.1"
@@ -1487,7 +1487,7 @@ loopback-datasource-juggler@^4.19.2:
     shortid "^2.2.6"
     strong-globalize "^5.0.2"
     traverse "^0.6.6"
-    uuid "^3.0.1"
+    uuid "^7.0.0"
 
 lower-case@^2.0.1:
   version "2.0.1"
@@ -2439,6 +2439,11 @@ uuid@^3.0.1:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^7.0.0:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"

@@ -1471,9 +1471,9 @@ loopback-connector@^4.10.2, loopback-connector@^4.4.0:
     uuid "^3.0.1"
 
 loopback-datasource-juggler@^4.19.2:
-  version "4.20.0"
-  resolved "https://registry.yarnpkg.com/loopback-datasource-juggler/-/loopback-datasource-juggler-4.20.0.tgz#532d7eaac86de45cb7e9dc62f6b66f5266508f7e"
-  integrity sha512-fFPJx9Bu29c6XB42WYCiJFXVHzGMVcPnm2NjQGrZ4CvM03GYH4zpHjBJrUTzp4ee6XycZ712xODyvggrcXUhdw==
+  version "4.21.0"
+  resolved "https://registry.yarnpkg.com/loopback-datasource-juggler/-/loopback-datasource-juggler-4.21.0.tgz#f8ebea5e04fe3fd1fc0b1b0c000ac7f5b89d0f61"
+  integrity sha512-oOcP7SAo34X6tfpnE7g4v7+Jjd7lcPB68HwqMxIq9JDxJ+Bx3YPbixuQrIw3Tq2m6F0Vo9brOfiMiw+UmgK+Vg==
   dependencies:
     async "^3.1.0"
     change-case "^4.1.1"
